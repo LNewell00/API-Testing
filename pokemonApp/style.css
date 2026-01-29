@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: aquamarine;
+    background-color: cornsilk;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -15,4 +15,38 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.pokemonInput {
+    padding: 10px 20px;
+    border: solid;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+button[type="submit"] {
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(31, 206, 31);
+}
+
+.nameDisplay {
+    font-size: 38px;
+    margin: 10px 0;
+}
+.spriteDisplay {
+    width: 150px;
+    height: 150px;
+}
+.typeDisplay, .abilityDisplay, .heightDisplay, .weightDisplay, .colorDisplay {
+    font-size: 18px;
+    margin: 5px 0;
 }

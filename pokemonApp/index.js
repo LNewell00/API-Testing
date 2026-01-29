@@ -69,6 +69,14 @@ async function displayPokemonInfo(pokemonData) {
     heightDisplay.textContent = `Height: ${height / 10} m`;
     weightDisplay.textContent = `Weight: ${weight / 10} kg`;
 
+    nameDisplay.classList.add("nameDisplay");
+    spriteDisplay.classList.add("spriteDisplay");
+    colorDisplay.classList.add("colorDisplay");
+    typeDisplay.classList.add("typeDisplay");
+    abilityDisplay.classList.add("abilityDisplay");
+    heightDisplay.classList.add("heightDisplay");
+    weightDisplay.classList.add("weightDisplay");
+
     pokemonContainer.appendChild(nameDisplay);
     pokemonContainer.appendChild(spriteDisplay);
     pokemonContainer.appendChild(colorDisplay);
