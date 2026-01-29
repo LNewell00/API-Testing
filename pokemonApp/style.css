@@ -1,53 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pokemonForm {
-    margin: 20px;
-}
-
-.pokemonInput {
-    padding: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-button[type="submit"] {
-    padding: 10px 20px;
-    font-weight: bold;
-    font-size: 2rem;
-    background: linear-gradient(180deg, red, hsl(0, 0%, 50%), white);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-button[type="submit"]:hover {
-    background: linear-gradient(180deg, hsl(0, 100%, 35%), hsl(0, 0%, 45%), hsl(0, 0%, 75%));
-}
-.card {
-    background-color: whitesmoke;
+.pokemonContainer {
     padding: 50px;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
     min-width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: center;;
-}
-h1 {
-    margin-top: 0;
-    margin-bottom: 25px;
-}
-p {
-    font-size: 1.5rem;
-    margin: 5px 0;
+    align-items: center;
 }
